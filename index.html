@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+	<title>HTML - SDA 1.0</title>
+
+	<link rel="stylesheet" href="dist/reset.css">
+	<link rel="stylesheet" href="dist/reveal.css">
+	<link rel="stylesheet" href="dist/theme/white.css" id="theme">
+	<link rel="stylesheet" href="dist/custom/custom.css">
+
+	<!-- Theme used for syntax highlighted code -->
+	<link rel="stylesheet" href="plugin/highlight/vs2015.css">
+
+	<!-- Printing and PDF exports -->
+	<script>
+		var link = document.createElement('link');
+		link.rel = 'stylesheet';
+		link.type = 'text/css';
+		link.href = window.location.search.match(/print-pdf/gi) ? 'css/print/pdf.css' : 'css/print/paper.css';
+		document.getElementsByTagName('head')[0].appendChild(link);
+	</script>
+</head>
+
+<body>
+	<div class="reveal">
+		<div class="slides">
+			<section data-markdown>
+				# Technologie frontendowe
+			</section>
+			<section data-external="./includes/intro/intro.html"></section>
+			<section data-external="./includes/intro/front-end.html"></section>
+			<section data-external="./includes/intro/html.html"></section>
+			<section data-external="./includes/intro/css.html"></section>
+			<section data-external="./includes/intro/javascript.html"></section>
+
+		</div>
+	</div>
+
+	<script src="dist/reveal.js"></script>
+	<script src="plugin/notes/notes.js"></script>
+	<script src="plugin/markdown/markdown.js"></script>
+	<script src="plugin/highlight/highlight.js"></script>
+	<script>
+		// More info about initialization & config:
+		// - https://revealjs.com/initialization/
+		// - https://revealjs.com/config/
+		Reveal.initialize({
+			hash: true,
+			slideNumber: "c",
+			width: 1640,
+			height: 800,
+
+			// Factor of the display size that should remain empty around
+			// the content
+
+			// Bounds for smallest/largest possible scale to apply to content
+
+			// SETUP RevealHighlight SETUP RevealHighlight SETUP RevealHighlight SETUP RevealHighlight SETUP RevealHighlight SETUP RevealHighlight SETUP RevealHighlight SETUP RevealHighlight 
+			// https://jsfiddle.net/ykyLcvnw/1/
+
+			// Learn about plugins: https://revealjs.com/plugins/
+			plugins: [RevealMarkdown, RevealHighlight, RevealNotes],
+			dependencies: [
+				{ src: 'plugin/markdown/marked.js' },
+				{ src: 'plugin/markdown/markdown.js' },
+				{ src: 'plugin/notes/notes.js', async: true },
+				{ src: 'plugin/highlight/highlight.js', async: true, callback: function () { hljs.initHighlightingOnLoad(); } },
+				{
+					src: 'plugin/external/external.js',
+					condition: function () {
+						return !!document.querySelector('[data-external],[data-external-replace]');
+					}
+				},
+
+			]
+		});
+	</script>
+</body>
+
+</html>
