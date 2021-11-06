@@ -4,13 +4,13 @@ Agenda html:
 
 - Wprowadzenia
 - Dokument HTML
-- 💻 Zadanie: Hierarchia plików i podstawowy szablon
+<!-- - 💻 Zadanie: Hierarchia plików i podstawowy szablon -->
 - Podstawowe znaczniki treści
-- 💻 Zadanie: przygotuj krótki wpis blogowy
+<!-- - 💻 Zadanie: przygotuj krótki wpis blogowy -->
 - Formatowanie treści HTML
-- 💻 Zadanie: wpis z Encyklopedii
+<!-- - 💻 Zadanie: wpis z Encyklopedii -->
 - Listy w HTML
-- 💻 Zadanie: Koszy w sklepu
+<!-- - 💻 Zadanie: Koszy w sklepu -->
 
 ---
 
@@ -19,10 +19,10 @@ Agenda html:
 Agenda html:
 
 - Linki odnośniki
-- 💻 Zadanie: MVP Encyklopedii
+<!-- - 💻 Zadanie: MVP Encyklopedii -->
 - Multimedia
 - Tabelki w HTML
-- 💻 Zadanie: Lista podstawowych znaczników w HTML
+<!-- - 💻 Zadanie: Lista podstawowych znaczników w HTML -->
 - Formularze
-- 💻 Zadanie: Formularz kanapkowy
-- Semantyka
+  <!-- - 💻 Zadanie: Formularz kanapkowy -->
+  <!-- - Semantyka -->

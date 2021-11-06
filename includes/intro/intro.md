@@ -17,17 +17,45 @@
 
 ---
 
+## Kto to nas będzie uczył ?
+
+<div style="display: flex;justify-content: flex-start;"> 
+<div style="width:400px; padding-right:50px">
+
+![](includes/intro/seba.png "seba")
+
+</div>
+<div style="text-align:left">
+
+Sebastian Wesołowski<br>
+Specjalizacja React
+
+~~ 6-7 Lat doświadczenia
+
+- https://wesolowski.dev/
+- https://www.linkedin.com/in/wesolowskisebastian/
+- https://github.com/SebastianWesolowski
+
+**Zajawki:**
+
+- 🔥 No-code, 🤖 Automatyzacje, 👨‍🍳 Gotowanie
+
+</div>
+
+</div>
+
+Notes:
+Smiało mówci ado manie jak wam wygodnie sebastian ,seba pan jak kto lubi
+Pytanie czy do was też tak mogę się zwracć ?
+
+Popełniam błędy jak każdy to normalne :)
+
+---
+
 ## Plan dni
 
-- poniedziałek 04.10 ➡️ **HTML**
-- wtorek 05.10 ➡️ **HTML, CSS**
-- środa 06.10 ➡️ **CSS**
-- czwartek 07.10 ➡️ **CSS, JavaScript**
-
-<hr>
-
-- poniedziałek 18.10 ➡️ **JavaScript**
-- wtorek 19.10 ➡️ **HTML, CSS, JavaScript**
+- Sobota 06.11 ➡️ **HTML, CSS**
+- Niedziela 07.11 ➡️ **CSS, JavaScript**
 
 ---
 
@@ -55,11 +83,13 @@ WebStorm
 
 <div style="width: 33%;">
 
-StackBlitz
+StackBlitz /
 
 [stackblitz.com](https://stackblitz.com/)
+[codesandbox.io](https://codesandbox.io/)
 
 ![](includes/intro/s.png "s")
+![](includes/intro/c.webp "c")
 
 </div>
 </div>
